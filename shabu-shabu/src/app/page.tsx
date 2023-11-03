@@ -7,7 +7,7 @@ const accentColor = "#b70943";
 export default function Home() {
   return (
     <main
-      className={`${font.className} grid grid-cols-2 grid-rows-1`}
+      className={`${font.className} grid sm:grid-cols-1 md:grid-cols-2`}
       style={{ perspective: "10px" }}
     >
       <div className="col-span-1 flex flex-col justify-center items-center h-screen bg-gradient-to-b from-pink-500 via-red-500 to-yellow-500">
