@@ -10,38 +10,40 @@ export default function Home() {
       className={`${font.className} grid sm:grid-cols-1 md:grid-cols-2`}
       style={{ perspective: "10px" }}
     >
-      <div className="col-span-1 flex flex-col justify-center items-center h-screen bg-gradient-to-b from-pink-500 via-red-500 to-yellow-500">
-        <div
-          className="text-white text-3xl text-center tracking-wide"
-          style={{
-            textShadow: `2px 2px ${accentColor}`,
-          }}
-        >
-          しゃぶしゃぶ
+      <div className="col-span-1 h-screen flex flex-col justify-center items-center bg-gradient-to-b from-pink-500 via-red-500 to-yellow-500">
+        <div className="mt-10">
+          <div
+            className="text-white text-3xl text-center tracking-wide"
+            style={{
+              textShadow: `2px 2px ${accentColor}`,
+            }}
+          >
+            しゃぶしゃぶ
+          </div>
+          <div
+            className="text-white text-5xl text-center tracking-wide mb-1"
+            style={{
+              textShadow: `3px 3px ${accentColor}`,
+            }}
+          >
+            Shabu Shabu
+          </div>
+          <div
+            className=" text-white text-2xl text-center tracking-wide"
+            style={{
+              textShadow: `2px 2px ${accentColor}`,
+            }}
+          >
+            Full Pot Development
+          </div>
+          <Image
+            src="/shabuPot.png"
+            alt="Shabut Pot"
+            width={400}
+            height={400}
+            priority
+          />
         </div>
-        <div
-          className="text-white text-5xl text-center tracking-wide mb-1"
-          style={{
-            textShadow: `3px 3px ${accentColor}`,
-          }}
-        >
-          Shabu Shabu
-        </div>
-        <div
-          className=" text-white text-2xl text-center tracking-wide"
-          style={{
-            textShadow: `2px 2px ${accentColor}`,
-          }}
-        >
-          Full Pot Development
-        </div>
-        <Image
-          src="/shabuPot.png"
-          alt="Shabut Pot"
-          width={400}
-          height={400}
-          priority
-        />
       </div>
       <div className="col-span-1 h-screen bg-white flex flex-col justify-center items-center px-12">
         <div
