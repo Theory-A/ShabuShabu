@@ -94,9 +94,9 @@ export default function Home() {
               shadcn's
             </a>{" "}
             philosophy of just giving you code rather than dependencies and
-            documentation. It has no magical moving pieces and emphasizes a few
-            high quality raw ingredients. You just fork the repo and start
-            changing things.
+            documentation. It avoids the over-processing of many moving pieces
+            to emphasize a few high quality raw ingredients. You just fork the
+            repo and start changing things.
           </div>
           <div className="text-white rounded shadow-md px-8 py-4 tracking-wide cursor-pointer bg-red-500 hover:bg-red-600 active:bg-red-700">
             <a href="https://github.com/Theory-A/ShabuShabu" target="_blank">

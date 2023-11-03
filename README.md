@@ -6,6 +6,4 @@
 
 [Shabu Shabu](https://shabu-shabu.theory-a.com/) is a "Full Pot" development template that scaffolds an application using modern tools optimized for rapid prototyping, side projects, and MVP iteration. It uses [Next.js](https://nextjs.org/) and [Convex](https://www.convex.dev/) as the core technologies and also sets up boilerplate for useful tooling such as ESLint, Typescript, [Tailwind](https://tailwindcss.com/), and [Prettier](https://ui.shadcn.com/).
 
-It is inspired by [shadcn's](https://prettier.io/) philosophy of just giving you code rather than dependencies and documentation. It has no magical moving pieces and emphasizes a few high-quality raw ingredients. You just fork the repo and start changing things.
-
-
+It is inspired by [shadcn's](https://prettier.io/) philosophy of just giving you code rather than dependencies and documentation. It avoids the over-processing of many moving pieces to emphasize a few high quality raw ingredients. You just fork the repo and start changing things.
